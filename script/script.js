@@ -11,9 +11,9 @@ function no() {
     } else if (noClickCount === 2) {
         question.innerText = "ARE YOU FR? YOU DON'T LOVE ME?";
     } else if (noClickCount === 3){
-        question.innerText = "ARE YOU REALLY REALLY REALLY SURE? you dont wanna rethink?"
+        question.innerText = "ARE YOU REALLY REALLY REALLY SURE? you dont wanna rethink?";
     } else if (noClickCount === 4){
-        question.innerText = "You don't really have a choice 💜"
+        question.innerText = "You don't really have a choice 💜";
     }
 
     // Randomize location of "No" button 3 times
