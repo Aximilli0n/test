@@ -7,11 +7,11 @@ function no() {
 
     // Update the question text based on the number of clicks
     if (noClickCount === 1) {
-        question.innerText = "Are you sure?";
+        question.innerText = "woah what? you pressed no? really? let's redo this. do you love me?";
     } else if (noClickCount === 2) {
-        question.innerText = "ARE YOU REALLY SURE?";
+        question.innerText = "ARE YOU FR? YOU DON'T LOVE ME?";
     } else if (noClickCount === 3){
-        question.innerText = "ARE YOU REALLY REALLY REALLY SURE?"
+        question.innerText = "ARE YOU REALLY REALLY REALLY SURE? you dont wanna rethink?"
     } else if (noClickCount === 4){
         question.innerText = "You don't really have a choice 💜"
     }
