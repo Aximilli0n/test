@@ -37,13 +37,13 @@ const messages = [
 ];
 
 const images =[
-    "./img/blush hard.jpg",
-    "./img/kiut.jpg",
-    "./img/myheart.jpg",
-    "./img/obsessed.jpg",
-    "./img/stare.jpg",
-    "./img/waiting.jpg",
-    "./img/inlove.png",
+    "../img/blush hard.jpg",
+    "../img/kiut.jpg",
+    "../img/myheart.jpg",
+    "../img/obsessed.jpg",
+    "../img/stare.jpg",
+    "../img/waiting.jpg",
+    "../img/inlove.png",
 ];
 
 
