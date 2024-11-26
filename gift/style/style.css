@@ -1,0 +1,151 @@
+html,body{
+    background-color: rgb(204, 167, 253);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: grid;
+    place-items: center;
+    min-height: 75vh;
+    min-width: 100vw;
+}
+
+/* hearts */
+
+.hearts{
+    font-size: 12px;
+    font-weight: bold;
+    position: fixed;
+    top: -1vh;
+    left: 0;
+    transform: translateY(0%);
+    animation: fall 1s ease-in infinite;
+}
+
+
+@keyframes fall{
+    to{
+        transform: translateY(100vh);
+    }
+}
+
+
+#song{
+    mix-blend-mode: darken;
+}
+
+
+
+/* page 1 stuff */
+
+#text{
+    font-weight: bold;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.anniversary{
+    position: absolute;
+    cursor: pointer;
+
+}
+
+.container #continueBtn{
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.head{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    font-family: "Indie flower";
+    margin-left: 3rem;
+}
+
+p{
+    font-family: "Indie flower";
+    font-size: 18px;
+    margin-left: 2rem;
+}
+
+title{
+    font-family: "Indie flower";
+}
+
+
+#continueBtn {
+    padding: 10px 20px; /* Adjust padding for better proportions */
+    margin: 3rem auto; /* Center the button */
+    border-radius: 20px; /* Use fixed pixel values for smooth rounded corners */
+    background-color: rgb(243, 150, 247);
+    box-shadow: 0px 10px rgb(75, 26, 95);
+    font-size: 16px; /* Ensure text fits comfortably */
+    border: none; /* Optional: Remove the default border */
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+
+#continueBtn:active {
+    transform: translateY(5px) scale(1); /* Moves button down slightly and resets scale */
+    box-shadow: 0px 8px rgb(75, 26, 95); /* Adjust shadow */
+    transition: transform 0.1s ease-in-out; /* Smooth transition for button press */
+}
+
+
+
+#galleryImage {
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+    max-width: 100%; /* Ensures the image does not exceed the container's width */
+    max-height: 300px; /* Adjust to your preferred height */
+    width: auto; /* Maintains aspect ratio */
+    height: auto; /* Maintains aspect ratio */
+    object-fit: cover; /* Scales the image to fill the space */
+    border-radius: 20px; /* Keeps the rounded corners */
+}
+
+
+.container #galleryImage{
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+
+#point{
+    border-radius: 60px;
+    margin-right: 50px;
+    mix-blend-mode: multiply;
+}
+
+
+/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (min-width: 1200px){
+
+    .container{
+        justify-content: center;
+        align-items: center;
+    }
+    #continueBtn {
+        padding: 10px 20px; /* Adjust padding for better proportions */
+        margin: 5rem 10rem;
+        border-radius: 20px; /* Use fixed pixel values for smooth rounded corners */
+        background-color: rgb(243, 150, 247);
+        box-shadow: 0px 10px rgb(75, 26, 95);
+        transition: 0.2s ease-in-out;
+        font-size: 16px; /* Ensure text fits comfortably */
+        border: none; /* Optional: Remove the default border */
+        display: inline-block; /* Ensure it doesn’t stretch unexpectedly */
+        cursor: pointer;
+    }
+    
+    
+}
