@@ -43,7 +43,7 @@ const images =[
     "./img/obsessed.jpg",
     "./img/stare.jpg",
     "./img/waiting.jpg",
-    "./img/Maro.png",
+    "./img/inlove.png",
 ];
 
 
