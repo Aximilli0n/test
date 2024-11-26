@@ -1,0 +1,101 @@
+*{
+    font-family: "Cherry Bomb One", sans-serif;
+}
+
+body, html{
+    background: rgb(173, 152, 233);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#cat-stare{
+    display: flex;
+    justify-content: center;
+}
+
+#cat-stare img{
+    margin-top: 5rem;
+    height: 10rem;
+    width: 10rem;
+    box-shadow: 0px 5px 5px rgb(65, 65, 65);
+}
+
+/* question page 1 */
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    color: white;
+    -webkit-text-stroke: 1px black;
+    text-align: center;
+    
+}
+
+#choices{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.yes{
+    color: white;
+    -webkit-text-stroke: 1px black;
+    padding: 20px;
+    margin: 10px;
+    align-items: center;
+    font-size: 30px;
+    box-shadow: 0 5px 5px rgb(65,65,65);
+    transition: transform 0.1s ease-in-out;
+}
+
+.yes:active{
+    transform: translateY(5px);
+    background-color: rgb(226, 119, 226);
+}
+
+
+.no{
+    color: white;
+    -webkit-text-stroke: 1px black;
+    padding: 20px;
+    margin: 10px;
+    align-items: center;
+    font-size: 30px;
+    box-shadow: 0 5px 5px rgb(65,65,65);
+    transition: transform 0.1s ease-in-out;
+}
+
+.no:active{
+    transform: translateY(5px);
+    background-color: rgb(226, 119, 226);    
+}
+
+/* Page 2 container */
+.page-2 {
+    flex-direction: column;
+    display: flex; /* Enable Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    background-image: url("../img/hearts.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-2 img{
+    box-shadow: 8 8px 10px rgb(46, 46, 46);
+    height: 20rem;
+    mix-blend-mode: multiply;
+
+}
+
+#reveal h1{
+    display: flex;
+
+}
