@@ -43,6 +43,7 @@ const images =[
     "./img/obsessed.jpg",
     "./img/stare.jpg",
     "./img/waiting.jpg",
+    "./img/squeeze.gif",
     "./img/inlove.png",
 ];
 
