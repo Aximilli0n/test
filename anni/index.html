@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <audio id="song" src="./audio/I wanna be yours - arctic monkeys 「edit audio」.mp3" autoplay loop controls></audio>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>From me to you</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div class="container-main">
+        <div id="page1" class="container">
+            <img id= "testTime" src="/img/test.jpg" alt="time to test you.jpg">
+            <h1 id="header-page1">HAPPY 2 YEAR ANNIVERSARY!!</h1>
+            <p id="anniP">WELL WELL WELL 2 years already!
+                let's see how well you know me. youself. us. Time to unrot the brain lol
+            </p>
+            <input type="text" id="nameInput" placeholder="Enter Name here booboo">
+            <button id="start" onclick="showPage2()">Continue</button>
+        </div>
+        <!-- Page 2: Question Page (Initially Hidden) -->
+        <div id="page2" class="page2-container">
+            <h2 id="questionText">Question 1</h2>
+
+
+            <div id="choices">
+                <button id="choice1">A</button>
+                <button id="choice2">B</button>
+                <button id="choice3">C</button>
+            </div>
+            <div id="extra">
+                <div id="catImageContainer">
+                    <img id="aktually" src="./img/aktually.jpg" alt="goofy aktually img.jpg">
+                    <p id="youLol">How I imagine you look right now doing this quizz</p>
+                </div>
+                <div id="infoContainer">
+                    <span id="questionInfo">Question: </span>
+                    <span id="currentQuestion">0/10</span>
+                    <div>
+                        <span id="pointsText">Points: </span>
+                        <span id="playerScore">0</span>
+                        <span id="maxScore">/10</span>
+                    </div>
+                </div>
+            </div>
+            
+    </div>
+</div>
+
+           
+    </div>
+        <!-- Page 3 test -->
+        <div id="page3" style="display: none;">
+            <p id="playerResult">Result</p>
+            <img id="resultPic" src="./img/default.jpg" alt="Result Image"> <!-- Default image -->
+            <button id="restart">Retry</button>
+        </div>        
+    </div>
+    <script src="./script/script.js"></script>
+</body>
+</html>
