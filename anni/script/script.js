@@ -43,7 +43,7 @@ let questions = [
     {
         question: "What is so special about today/tomorrow?",
         choices: ["Anniversary", "Birthday", "We unban tiktok"],
-        correctChoice: [1, 2],
+        correctChoice: [0,1],
     },
     {
         question: "When did you first full clear abyss?",
