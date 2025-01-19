@@ -41,8 +41,8 @@ let questions = [
         correctChoice: [1, 2],
     },
     {
-        question: "Who is more Skibidy and Sigma?",
-        choices: ["Silco", "Maro", "Ax"],
+        question: "What is so special about today/tomorrow?",
+        choices: ["Anniversary", "Birthday", "We unban tiktok"],
         correctChoice: [1, 2],
     },
     {
