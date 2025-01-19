@@ -206,7 +206,7 @@ function showResults() {
      else {
         resultImage.src = "./img/marryme.jpg"; // Replace with your high-score image path
         resultImage.alt = "Max score";
-        document.getElementById("playerResult").textContent = `SHEEEEEEESH YOU ACED IT???? Bro wanna get married? :> ${point} / 10 points???? SHEEEEESH BIG BRAIN! my smart pants!`
+        document.getElementById("playerResult").textContent = `SHEEEEEEESH YOU ACED IT???? Bro wanna get married? :> ${point} / 10 points???? SHEEEEESH BIG BRAIN! my smart pants! here is final present that I got for us https://aximilli0n.github.io/test/ani/ copy and paste this link in web browser`
 
     }
 }
