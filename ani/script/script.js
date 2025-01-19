@@ -63,7 +63,7 @@ function startWalking(key) {
   clearInterval(moveInterval);
 
   animationInterval = setInterval(() => {
-    character.style.backgroundImage = `url('../img/walk_${(spriteIndex % 3) + 1}.png')`;
+    character.style.backgroundImage = `url('./img/walk_${(spriteIndex % 3) + 1}.png')`;
     spriteIndex++;
   }, 150);
 
@@ -91,7 +91,7 @@ function startIdle() {
   isIdle = true;
 
   animationInterval = setInterval(() => {
-    character.style.backgroundImage = `url('../img/hug/hug_${(spriteIndex % 2) + 3}.png')`;
+    character.style.backgroundImage = `url('./img/hug/hug_${(spriteIndex % 2) + 3}.png')`;
     spriteIndex++;
   }, 1000);
 }
