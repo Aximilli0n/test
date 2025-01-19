@@ -206,7 +206,11 @@ function showResults() {
      else {
         resultImage.src = "./img/marryme.jpg"; // Replace with your high-score image path
         resultImage.alt = "Max score";
-        document.getElementById("playerResult").textContent = `SHEEEEEEESH YOU ACED IT???? Bro wanna get married? :> ${point} / 10 points???? SHEEEEESH BIG BRAIN! my smart pants! here is final present that I got for us https://aximilli0n.github.io/test/ani/ copy and paste this link in web browser`
+        document.getElementById("playerResult").textContent = `SHEEEEEEESH YOU ACED IT??? That's my pookie! :> ${point} / 10 points???? Honestly this year passed by so quick with you! you goofy lady make life so much fun!
+        . Everything is more enjoyable with you tbh <3 this year alone we made a lot of progress. We learned new stuff. like talking, me opening up more about myself, I got baptized (one of my fav moments), we started to watch kubz, 
+        YOU GOT JOB AND GRADUATED!!!!, new characters like acheron, mauvika, xilonen, citlali, aventurine!!! e1 too, jade and more. Honestly there are many more moments. I cant pick any favorite, but if I could go back I would like to relive them again.
+        BUT I got the person I recreated them with so I dont need to go back. Im excited for what's more to come and what future holds for us. I've seen you grown a lot too! and it has been very beautiful and cute how you learn,
+        improve and much more. I like you Maro or my cute Miray. here is final present that I got for you https://aximilli0n.github.io/test/ani/ copy and paste this link in web browser`
 
     }
 }
