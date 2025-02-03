@@ -1,0 +1,45 @@
+* {
+    background-color: rgb(219, 191, 219);
+    color: white;
+    font-family: "Sour Gummy", serif;
+    text-shadow: 3px 3px rgb(180, 139, 170);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.image{
+    height:200px;
+    width:200px;
+    align-self: center;
+}
+
+.container_opt {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+}
+
+#YES, #NO {
+    cursor: pointer;
+    padding: 10px;
+    transition: all 0.3s ease;
+    background-color: rgb(196, 142, 207);
+    border-radius: 20px;
+}
+
+#YES:hover {
+    text-shadow: 3px 3px 5px rgb(255, 255, 255);
+}
+
+#NO:hover {
+    text-shadow: 3px 3px 5px rgb(255, 0, 0);
+}
