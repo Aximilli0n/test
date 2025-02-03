@@ -43,3 +43,11 @@
 #NO:hover {
     text-shadow: 3px 3px 5px rgb(255, 0, 0);
 }
+
+#music{
+    text-shadow: 0px 0px;
+    border-radius: 20px;
+    margin-left: 30px;
+    mix-blend-mode: multiply;
+    margin-top: 10px;
+}
