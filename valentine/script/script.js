@@ -3,7 +3,7 @@ const noOption = document.getElementById("NO");
 const container = document.querySelector(".container");
 
 let yesPadding = 20; // Initial padding for Yes
-let noTexts = ["No", "Are you sure?", "Are you really, really sure?", "Do you mean it?", "noooo stoooop pressing no :C", "Do you not like me back Gidan much? :C", "Why are you still pressing no? :C", "do you really not wanna?", "Fine then I won't force you :C"];
+let noTexts = ["No", "Are you sure?", "Are you really, really sure?", "Do you mean it?", "noooo stoooop pressing no :C", "Do you not like me back Gidan much? :C", "Why are you still pressing no? :C", "do you really not wanna?", "Well too bad you dont have a choice :>"];
 let noIndex = 0; // Tracks the current text index
 
 noOption.addEventListener("click", () => {
