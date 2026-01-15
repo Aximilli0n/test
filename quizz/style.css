@@ -1,0 +1,69 @@
+*{
+    font-style: italic;
+}
+
+body{
+    background-color: rgb(216, 137, 209);
+
+}
+
+h1{
+    display: flex;
+    color: white;
+    text-shadow: 4px 4px rgb(173, 31, 138);
+}
+
+#page1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    border-radius: 60%;
+    margin: 20px;
+    box-shadow: rgb(238, 46, 255) 0px 0px 20px;
+}
+
+#questionImage{
+    height: 200px;
+    width: 200px;
+}
+
+#welcome{
+    font-size: 20px;
+}
+
+button{
+    margin: 20px;
+    color:rgb(224, 224, 224);
+    background-color: rgb(173, 73, 173);
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+}
+
+#page2{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  #page2Content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+
+body.perfect-score{
+    background-image: url("./img/heart_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   /* <- stops repeating */
+    min-height: 100vh;              /* <- ensures full screen height */
+  }
+  
