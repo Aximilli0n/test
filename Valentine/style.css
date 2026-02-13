@@ -1,0 +1,77 @@
+/* Center everything */
+body{
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(210, 160, 230);
+  color: white;
+  font-family: "Pacifico", cursive;
+  font-size: 50px;
+}
+
+#container{
+  width: 600px;
+  height: 250px;
+  position: relative;
+  text-align: center;
+}
+
+/* game area */
+#playArea{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/* buttons */
+button{
+  font-family: inherit;
+  font-size: 28px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+
+  position: absolute;
+  top: 65%;
+  transform: translateY(-50%);
+}
+
+#yesBtn{ left: 25%; background: #deb0f0; color: white; }
+#noBtn{ left: 60%; background: #deb0f0; color: white; }
+
+#gif{
+  display: none;              /* hidden at start */
+  width: 100vw;
+  height: 100vh;
+
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;            /* makes it fullscreen */
+  inset: 0;
+  background-color: rgb(210, 160, 230);
+}
+
+#gif img{
+  max-width: 90vw;
+  max-height: 90vh;
+}
+
+/* Cute message full screen */
+#cuteMessage{
+  position: fixed;
+  inset: 0;
+  background: rgb(210, 160, 230);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 120px;
+  color: white;
+  z-index: 10000;
+  text-align: center;
+}
+
